@@ -17,7 +17,12 @@ class IndicatorsController < ApplicationController
         analysis_files_urls['analysis_input_url'] = analysis_input_url
         analysis_files_urls['generate_template_input_url'] = generate_template_input_url
         analysis_files_urls['metas_bcp_url'] = metas_bcp_url
-        redirect_to indicators_path(analysis_files_urls)
+        # redirect_to indicators_path(analysis_files_urls)
+        render json:{error:false,data: analysis_files_urls}
+
+
+    rescue Exception => e
+        render json:{error:true,msg: t("error") }
     end
     def index
     end

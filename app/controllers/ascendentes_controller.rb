@@ -14,7 +14,10 @@ class AscendentesController < ApplicationController
             evaluator_ascendentes_output_url = GenerateFilesFromGems.generate_manager(evaluator_ascendentes_input_file)
         end
 
-        redirect_to ascendentes_path(evaluator_ascendentes_input_url:evaluator_ascendentes_input_url,peers_definition_input_url: peers_definition_input_url,peers_output_url:peers_output_url, evaluator_ascendentes_output_url:evaluator_ascendentes_output_url,)
+        # redirect_to ascendentes_path(evaluator_ascendentes_input_url:evaluator_ascendentes_input_url,peers_definition_input_url: peers_definition_input_url,peers_output_url:peers_output_url, evaluator_ascendentes_output_url:evaluator_ascendentes_output_url,)
+        render json:{error:false,data: {evaluator_ascendentes_input_url:evaluator_ascendentes_input_url,peers_definition_input_url: peers_definition_input_url,peers_output_url:peers_output_url, evaluator_ascendentes_output_url:evaluator_ascendentes_output_url}}
+    rescue Exception => e
+        render json:{error:true,msg: t("error") }
     end
     def index
     end
