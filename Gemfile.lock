@@ -1,20 +1,20 @@
 GIT
   remote: https://github.com/sheikhhamza012/evaluations_gem/
-  revision: 2093f7b5e0dc6b74295961ebe676565a4d10eaf5
+  revision: 6f4df06d1e456871cdafe52fe07875e495769554
   specs:
     evaluations_gem (0.1.0)
       rubyXL
 
 GIT
   remote: https://github.com/sheikhhamza012/rankmi_fpy_template
-  revision: ef2993186415a56211fa2156db317fdddeda2038
+  revision: f7e03370e72dc9023a2a266ccfb8235b14eb26c5
   specs:
     fpy_template (0.1.0)
       rubyXL
 
 GIT
   remote: https://github.com/sheikhhamza012/rankmi_indicators_update_gem
-  revision: 66488d1b5d18c9df38006c3299cbbd629da7d601
+  revision: c9d6cc3826bb427f8010c67f177fd5ed773511d8
   specs:
     rankmi_indicators_update (0.1.0)
       rubyXL
@@ -143,6 +143,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.3)
     public_suffix (4.0.6)
     puma (4.3.6)
       nio4r (~> 2.0)
@@ -251,6 +252,7 @@ DEPENDENCIES
   fpy_template!
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  pg
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   rankmi_indicators_update!
