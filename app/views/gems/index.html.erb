@@ -110,7 +110,7 @@
         <h4><%= t :title %></h4>
         <div class="col-xs-3 form-root">
             <h4><%= t('indicators_bcp.title')%></h4>
-            <p><%= t('indicators_bcp.description')%></p>
+            <p><%= raw t('indicators_bcp.description')%></p>
            <%= form_with(url: indicators_path, multipart: true,  id:"indicators_form") do %>        
                 <div id="indicators_fields">
                     <label for="generate_template_input" class="file-select"><%= t ('indicators_bcp.file1') %></label>
@@ -125,7 +125,7 @@
         </div>
         <div class="col-xs-3 form-root">
             <h4><%= t('fpy.title')%></h4>
-            <p><%= t('fpy.description')%></p>
+            <p><%=raw t('fpy.description')%></p>
             <%= form_with(url: fpy_index_path, multipart: true, id:"fpy_form") do %>        
                 <div id="fpy_fields">
                     <label for="fpy_file" class="file-select"><%= t ('fpy.file') %></label>

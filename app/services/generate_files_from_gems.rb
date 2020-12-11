@@ -17,8 +17,8 @@ class GenerateFilesFromGems
         metas_a_crear = RankmiIndicatorsUpdate::Parse.separate_records(metas_bcp_con_info)
         metas_a_crear_url = FileUploader.upload(metas_a_crear.stream)
         analisis_accione_and_borar = RankmiIndicatorsUpdate::Parse.define_goals_to_eliminate_and_update(metas_bcp_con_info)
-        analisis_accione_url = FileUploader.upload(analisis_accione_and_borar["analisi"].stream)
-        metas_a_borar_url = FileUploader.upload(analisis_accione_and_borar["borrar"].stream)
+        analisis_accione_url = FileUploader.upload(analisis_accione_and_borar[:analisi].stream)
+        metas_a_borar_url = FileUploader.upload(analisis_accione_and_borar[:borrar].stream)
         metas_a_actualizer = RankmiIndicatorsUpdate::Parse.excel_with_goals_to_update(metas_bcp_con_info)
         metas_a_actualizer_url = FileUploader.upload(metas_a_actualizer.stream)
 

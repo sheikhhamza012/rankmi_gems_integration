@@ -37,11 +37,11 @@ es:
     file1: Generacion template
     file2: analisis cambios
     title: Indicadores BCP
-    description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    description: Ver Instrucciones <a href="https://www.notion.so/rankmi/Actualizaci-n-indicadores-BCP-8e7a6fdad712496396aa0b8c764d02c1">https://www.notion.so/rankmi/Actualizaci-n-indicadores-BCP-8e7a6fdad712496396aa0b8c764d02c1</a>.
   fpy:
     file: Creacion excel
     title: fpy
-    description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    description: Ver Instrucciones <a href="https://www.notion.so/rankmi/Construcci-n-template-FPY-2f7efa9cd8cf441dad954e18da64d469">https://www.notion.so/rankmi/Construcci-n-template-FPY-2f7efa9cd8cf441dad954e18da64d469</a>.
   ascendentes:
     file1: definition pares
     file2: evaluador ascendentes
