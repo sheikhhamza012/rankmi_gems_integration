@@ -151,7 +151,23 @@
                 <%# <input type="submit"/> %>
             <% end %>
         </div>
+       
         
+    </div>
+    <div class="row">
+        <div class="col-xs-3 form-root">
+            <h4><%= t('excel_review.title')%></h4>
+            <p><%= t('excel_review.description')%></p>
+            <%= form_with(url: excel_review_index_path, multipart: true, id:"excel_review_form") do %> 
+                <div id="excel_review_fields">
+                    <label for="excel_review_file" class="file-select"><%= t ('excel_review.file') %></label>
+                    <%= file_field_tag :excel_review_file %>
+                </div>
+                <img id="excel_review_loader" class="loader" src="https://media2.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"/>
+
+                <input type="submit"/>
+            <% end %>
+        </div>
     </div>
 </div>
 <div id="output">

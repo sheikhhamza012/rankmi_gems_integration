@@ -47,3 +47,7 @@ es:
     file2: evaluador ascendentes
     title: ascendentes
     description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  excel_review:
+    file: file
+    title: Excel review
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit.

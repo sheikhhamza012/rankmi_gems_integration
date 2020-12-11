@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+gem 'rails', '~> 5.2.0', '>= 5.2.0'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
@@ -58,3 +58,4 @@ gem 'dotenv-rails'
 gem 'rankmi_indicators_update', git: 'https://github.com/sheikhhamza012/rankmi_indicators_update_gem'
 gem 'fpy_template', git: 'https://github.com/sheikhhamza012/rankmi_fpy_template'
 gem 'evaluations_gem', git: 'https://github.com/sheikhhamza012/evaluations_gem/'
+gem 'rankmi_excel_review', git: 'https://github.com/sheikhhamza012/rails_plugin_rankmi_excel_review'
