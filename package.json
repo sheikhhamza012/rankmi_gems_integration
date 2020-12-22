@@ -1,7 +1,7 @@
 {
   "name": "rankmi_integration_of_gems",
   "engines": {
-    "node": "10.x"
+    "node": "^10 || ^12"
   },
   "private": true,
   "dependencies": {
