@@ -16,11 +16,11 @@
 - localhost:3000/es
 
 # .env File
-` LOCAL_DATABASE = value
-LOCAL_DATABASE_USER = value
-LOCAL_DATABASE_PASS = value
-LOCAL_DATABASE_HOST = value
-AWS_BUCKET = value
-AWS_ACCESS_KEY_ID = value
-AWS_SECRET_ACCESS_KEY = value
-AWS_REGION = value `
+` LOCAL_DATABASE = value `
+`LOCAL_DATABASE_USER = value`
+` LOCAL_DATABASE_PASS = value`
+` LOCAL_DATABASE_HOST = value`
+` AWS_BUCKET = value`
+` AWS_ACCESS_KEY_ID = value`
+` AWS_SECRET_ACCESS_KEY = value`
+` AWS_REGION = value `
